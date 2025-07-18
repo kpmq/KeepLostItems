@@ -1,0 +1,11 @@
+name: KeepLostItems
+version: '1.0'
+main: com.kpmq.keepLostItems.KeepLostItemsPlugin
+api-version: '1.21'
+authors: [ kpmq ]
+description: >
+  Ensure that items dropped on death can only be retrieved by the original owner and retain experience points.
+commands:
+  keeplostitems:
+    description: KeepLostItems plugin enable/disable toggle command
+    usage: /keeplostitems toggle

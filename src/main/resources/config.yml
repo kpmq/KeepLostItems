@@ -1,0 +1,34 @@
+# KeepLostItems settings configuration file
+
+# Plugin Default Mode
+enabled: true
+
+# Default Language (Select on English, Korean, Japanese)
+language: English
+
+messages:
+  enabled:
+    English: "The plugin function is now enabled."
+    Korean: "플러그인 기능이 활성화되었습니다."
+    Japanese: "プラグイン機能が有効になりました。"
+  disabled:
+    English: "The plugin function is now disabled."
+    Korean: "플러그인 기능이 비활성화되었습니다."
+    Japanese: "プラグイン機能が無効になりました。"
+  usage:
+    general:
+      English: "Usage: /keeplostitems <toggle|lang>"
+      Korean: "사용법: /keeplostitems <toggle|lang>"
+      Japanese: "使い方: /keeplostitems <toggle|lang>"
+    toggle:
+      English: "Usage: /keeplostitems toggle [on|off]"
+      Korean: "사용법: /keeplostitems toggle [on|off]"
+      Japanese: "使い方: /keeplostitems toggle [on|off]"
+    lang:
+      English: "Usage: /keeplostitems lang [Korean|English|Japanese]"
+      Korean: "사용법: /keeplostitems lang [Korean|English|Japanese]"
+      Japanese: "使い方: /keeplostitems lang [Korean|English|Japanese]"
+  langSet:
+    English: "The plugin language set to English."
+    Korean: "플러그인 언어가 한국어로 설정되었습니다."
+    Japanese: "プラグインの言語が日本語に設定されました。"
