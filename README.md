@@ -46,7 +46,7 @@ A PaperMC 1.21.8 Kotlin plugin that locks death-dropped items to their owners an
 ## 설치
 
 1. 플러그인 파일을 다운로드하세요.
-2. 다운로드한 파일(KeepLostItems-(플러그인 버전).jar)을 서버의 ```plugins/```` 폴더에 넣으세요.
+2. 다운로드한 파일(KeepLostItems-(플러그인 버전).jar)을 서버의 `plugins/` 폴더에 넣으세요.
 3. 서버를 재시작하세요.
 
 ## 명령어
