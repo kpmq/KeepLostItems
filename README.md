@@ -34,14 +34,14 @@ A PaperMC 1.21.8 Kotlin plugin that locks death-dropped items to their owners an
 
 # 한국어
 
-죽어서 떨어뜨린 아이템을 소유자에게 잠그고 사망 시 경험치를 보존하는 PaperMC 1.21.8 / Kotlin 기반 플러그인입니다.
+플레이어 사망 시 드롭되는 플레이어의 아이템을 사망한 플레이어 본인만 회수할 수 있도록 잠그고 경험치를 보존시키는 PaperMC 1.21.8 / Kotlin 기반 플러그인입니다.
 
 ## 기능
 
-- 사망 시 경험치(XP) 보존  
-- 떨어뜨린 아이템을 원래 플레이어만 주울 수 있도록 잠금 
-- `/keeplostitems toggle [on|off]`로 활성화/비활성화  
-- 언어를 변경하려면 `/keeplostitems lang <English|Korean|Japanese>`를 입력하세요.
+- 사망 시 경험치(xp) 보존  
+- 떨어뜨린 아이템을 원래 플레이어만 주울 수 있도록 잠금
+- `/keeplostitems toggle [on|off]`로 플러그인 기능 활성화/비활성화
+- `/keeplostitems lang <English|Korean|Japanese>`로 게임 내에서 플러그인 언어 변경 가능
 
 ## 설치
 
@@ -55,7 +55,7 @@ A PaperMC 1.21.8 Kotlin plugin that locks death-dropped items to their owners an
  `/keeplostitems lang <언어>`으로 언어 변경 (영어/한국어/일본어)
 
 ## 구성
- 기본값은 `(서버 폴더)/plugins/KeepLostItems/config.yml` 파일에 있습니다. 게임 내에서 플러그인을 토글하거나 언어를 변경할 수 있습니다.
+ 기본값은 `(서버 폴더)/plugins/KeepLostItems/config.yml` 파일에 있습니다. 게임 내에서 플러그인 기능을 토글로 전환하거나 언어를 변경할 수 있습니다.
 
 ## 릴리즈
  릴리즈 페이지에서 플러그인 파일을 다운로드하세요.
